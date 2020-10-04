@@ -1,0 +1,19 @@
+@import '../../../assets/variables';
+.wrapper {
+  display: flex;
+  .content-wrapper {
+    background-color: rgb(20, 61, 100);
+    width: 100%;
+    overflow-x: hidden;
+    color: $white;
+    padding: $size-20;
+    .content {
+      flex: 1 0 auto;
+    }
+  }
+  .breadcrumb {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+}

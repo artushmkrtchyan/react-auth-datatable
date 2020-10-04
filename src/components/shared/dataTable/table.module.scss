@@ -1,0 +1,66 @@
+.content {
+  font-size: 13px;
+  .tableToolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+    @media (max-width: 992px) {
+      display: block;
+    }
+    .btnGroups {
+      position: relative;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      line-height: 34px;
+      margin-left: 5px;
+      button {
+        img {
+          width: 20px;
+        }
+      }
+    }
+    .search {
+      position: relative;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      line-height: 34px;
+    }
+    .bulkActions {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      line-height: 34px;
+      select {
+        width: 190px;
+      }
+    }
+  }
+
+  table {
+    @media (max-width: 1300px) {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+    }
+    thead tr th {
+      border-top: 0;
+      white-space: nowrap;
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .paginationContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    @media (max-width: 992px) {
+      display: block;
+    }
+  }
+}

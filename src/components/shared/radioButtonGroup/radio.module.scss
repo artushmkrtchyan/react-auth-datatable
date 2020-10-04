@@ -1,0 +1,15 @@
+.radioBtn {
+  &.title {
+    label {
+      opacity: 1;
+    }
+  }
+  label {
+    border-radius: 0.25rem !important;
+    margin-right: 5px;
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}

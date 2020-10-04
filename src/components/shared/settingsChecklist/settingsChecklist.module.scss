@@ -1,0 +1,16 @@
+.content {
+  .inputForm {
+    &:first-child {
+      padding-right: 0;
+    }
+    button {
+      width: 100%;
+      margin-left: 0.3rem !important;
+    }
+  }
+  .name {
+    border-radius: 50%;
+    padding: 7px;
+    background-color: #cccccc;
+  }
+}
